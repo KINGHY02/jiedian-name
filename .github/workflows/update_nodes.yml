@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: false  # 禁用默认 token，避免冲突
+          persist-credentials: false  # 禁用默认凭据
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -28,10 +28,10 @@ jobs:
 
       - name: Commit and push changes
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MY_PAT: ${{ secrets.MY_PAT }}   # 使用 Secrets
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add nodes.txt
           git commit -m "自动更新节点备注 ⏰" || echo "No changes to commit"
-          git push https://${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:${GITHUB_REF##*/}
+          git push https://$MY_PAT@github.com/${{ github.repository }} HEAD:${GITHUB_REF##*/}
