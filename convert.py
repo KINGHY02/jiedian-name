@@ -1,12 +1,13 @@
 import urllib.parse
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
+
+# 转换到北京时间
+tz_beijing = timezone(timedelta(hours=8))
+today = datetime.now(tz=tz_beijing).strftime("%Y·%m.%d").lstrip("0").replace(".0", ".")
 
 # 读取模板文件
 with open("nodes_template.txt", "r", encoding="utf-8") as f:
     lines = f.readlines()
-
-# 获取今天日期
-today = datetime.now().strftime("%Y·%m.%d").lstrip("0").replace(".0", ".")
 
 new_lines = []
 for line in lines:
