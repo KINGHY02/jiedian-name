@@ -1,1 +1,1 @@
-hysteria2://RzQrEkAmnGs86IhmSVUk9Q5cn9M@47.236.104.81:30308?sni=bing.com&insecure=1#%E2%8F%B0%E6%9B%B4%E6%96%B0%EF%BC%9A2025%C2%B708.25
+hysteria2://RzQrEkAmnGs86IhmSVUk9Q5cn9M@47.236.104.81:30308?sni=bing.com&insecure=1#%E2%8F%B0%E6%9B%B4%E6%96%B0%EF%BC%9A2025%C2%B708.26
