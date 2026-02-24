@@ -1,1 +1,1 @@
-trojan://7192a071-b12f-40e4-97ca-1e5fc8bf9b12@172.64.53.67:443?security=tls&sni=joy.787889.xyz&fp=random&alpn=h3&insecure=0&allowInsecure=0&type=ws&host=joy.787889.xyz&path=%2Fed%3F%3D2560#%E2%8F%B0%E6%9B%B4%E6%96%B0%EF%BC%9A2026%C2%B702.24
+trojan://7192a071-b12f-40e4-97ca-1e5fc8bf9b12@172.64.53.67:443?security=tls&sni=joy.787889.xyz&fp=random&alpn=h3&insecure=0&allowInsecure=0&type=ws&host=joy.787889.xyz&path=%2Fed%3F%3D2560#%E2%8F%B0%E6%9B%B4%E6%96%B0%EF%BC%9A2026%C2%B702.25
